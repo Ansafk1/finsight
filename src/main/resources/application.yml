@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: finsight
+  datasource:
+    url: jdbc:postgresql://localhost:5432/finsight
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  kafka:
+    bootstrap-servers: localhost:9092
