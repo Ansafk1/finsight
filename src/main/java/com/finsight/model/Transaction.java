@@ -32,4 +32,5 @@ public class Transaction {
     private Boolean isFlagged;
     private String llmExplanation;
     private LocalDateTime createdAt;
+
 }
