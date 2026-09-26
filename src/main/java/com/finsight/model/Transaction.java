@@ -21,7 +21,6 @@ import java.util.UUID;
 @AllArgsConstructor
 public class Transaction {
     @Id
-    @GeneratedValue
     private UUID id;
     private BigDecimal amount;
     private String merchantCategory;
